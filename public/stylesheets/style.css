@@ -1,8 +1,30 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #000000;
+  color:#FFFFFF;
 }
 
+.s1p1{
+  background: url('../images/face.jpg');
+  background-repeat:no-repeat;
+  background-position-x:right;
+  background-size:contain;
+}
+.s1p1 .logo{
+  background: url('../images/logo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom:150px;
+  left:20px;
+  width: 400px;
+  height:150px;
+}
+.subtitle{
+  position: absolute;
+  bottom: -80px;
+  font-size: 1.8rem;
+}
 a {
-  color: #00B7FF;
+  color: : #FFFFFF;
 }
