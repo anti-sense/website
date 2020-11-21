@@ -9,6 +9,7 @@ body {
   background-repeat:no-repeat;
   background-position-x:right;
   background-size:contain;
+  min-height: 100%
 }
 .s1p1 .logo{
   background: url('../images/logo.jpg');
