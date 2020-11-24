@@ -106,9 +106,9 @@
   .ft-page.actual,
   .ft-page.actual-out {
     z-index: 100;
-        -ms-transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    /* -webkit-transform: translateZ(0); */
+    transform: translateZ(0);
   }
 
   /* pages in overview mode */
