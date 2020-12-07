@@ -1,7 +1,16 @@
+.tall{
+  height:100%;
+}
 .tall .menu{
+  background: url('../images/logo.jpg');
+  background-size: 25%;
+  background-repeat: no-repeat;
   background-color:white;
   font-size: 3rem;
   border-bottom: 3px solid #38f1f6;
+}
+.tall .menu .fas.fa-bars{
+  font-size:5rem;
 }
 .tall.s1p1{
   background: url('../images/face.jpg');
@@ -34,13 +43,17 @@
 .tall .team-container .team-member .team .name{
 
 }
-.tall .d-flex{
+.tall .team-container{
+  height:100%;
+}
+.tall .team-container .d-flex{
+  height: 22%;
   padding-right: 70px;
   padding-left: 70px
 }
 .tall .team-member{
   width: 65%;
-  height:500px;
+  height:100%;
 }
 .tall .team{
   width: 100%;
