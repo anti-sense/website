@@ -3,24 +3,20 @@ extends layout
 block content
   .flowtime
     .ft-section
-      .ft-page.s1p1
-        .menu
-          nav.navbar.navbar-expand-lg.navbar-light.bg-light
-            #navbarNav.collapse.navbar-collapse
-              ul.navbar-nav
-                li.nav-item.active
-                  a.nav-link(href='#')
-                    | Home 
-                    span.sr-only (current)
-                li.nav-item
-                  a.nav-link(href='/#/1/1') Services
-                li.nav-item
-                  a.nav-link(href='/#/2/1') Team
-                li.nav-item
-                  a.nav-link(href='#') About Us
-        .logo.rounded
-          p.subtitle Next-generation of smelling
       .ft-page
+        .square.wide
+          .menu
+            include square/menu
+          .s1p1
+            include square/s1p1
+        .tall.d-none.s1p1
+          .menu
+            include tall/menu
+          include tall/s1p1                       
+      .ft-page
+        .square
+        .wide
+        .tall
         h3 Something
     .ft-section
       .ft-page.s2p1
@@ -63,4 +59,3 @@ block content
             .team.gustavopatino.rounded  
             .name
               h4.text-center Gustavo Patino  
-

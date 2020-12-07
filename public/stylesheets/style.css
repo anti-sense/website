@@ -4,31 +4,52 @@ body {
   color:#FFFFFF;
   margin:0px;
 }
-.s1p1{
+
+
+.square .menu{
+  height: 5%;
+  border-bottom: 3px solid #38f1f6;
+}
+.square .s1p1{
   background: url('../images/face.jpg');
   background-repeat:no-repeat;
-  background-position-x:right;
+  color:white;
+  height: 95%;
+  min-width: 375px;
+  width: 100%;
   background-size: cover;
+  background-position: left;
+  font-size:1rem;
 }
-.s1p1 .logo{
+.square .s1p1 .logo{
   background: url('../images/logo.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom:150px;
-  left:20px;
-  width: 400px;
-  height:150px;
+  bottom:15%;
+  left:5%;
+  min-width: 250px;
+  min-height: 100px;
+  width: 35%;
+  height:18%;
 }
+.subtitle{
+  position: absolute;
+  bottom: -80px;
+  font-size: 1.8rem;
+  color:white;
+}
+
+
+
+
+
 .s2p1{
   background-image: url('../images/bg-team.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.menu{
-  border-bottom: 3px solid #38f1f6;
-}
 .team-container{
   height: 100%
 }
@@ -41,7 +62,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 .anasemeano{
   background-image: url('../images/people/AnaSemeano.png');
 }
@@ -65,12 +85,6 @@ body {
 .name{
  background-color: #0f1b47; 
  color:#38f1f6; 
-}
-.subtitle{
-  position: absolute;
-  bottom: -80px;
-  font-size: 1.8rem;
-  color:white;
 }
 a {
   color: : #FFFFFF;
