@@ -1,4 +1,4 @@
-$('document').ready(function(){
+$(document).ready(function(){
   $(function detectType(){
     let height=window.innerHeight
     let width=window.innerWidth
@@ -15,7 +15,10 @@ $('document').ready(function(){
     }
     if(type=="tall"){
       $(".tall").removeClass('d-none')
-      $(".square,.wide").hide()
+      $('.square,.wide').hide()
+    }else if(type=="square"){
+      $(".square").removeClass('d-none')
+      $('.tall').hide()
     }
   })()
 })

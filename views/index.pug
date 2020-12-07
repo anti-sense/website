@@ -4,58 +4,23 @@ block content
   .flowtime
     .ft-section
       .ft-page
-        .square.wide
+        .square.wide.d-none
           .menu
             include square/menu
           .s1p1
             include square/s1p1
-        .tall.d-none.s1p1
+        .tall.s1p1
           .menu
             include tall/menu
           include tall/s1p1                       
-      .ft-page
-        .square
-        .wide
-        .tall
-        h3 Something
     .ft-section
       .ft-page.s2p1
-        .d-flex.justify-content-center.bar
-          h1.title.p-2 Team
-        .team-container.d-flex.justify-content-center
-          .p-5.align-self-center.parallax(data-parallax="50,100")
-            .team.anasemeano.rounded
-            .name
-              h4.text-center Ana Semeano
-          .p-5.align-self-center.parallax(data-parallax="100,150")
-            .team.arquimedescheffer.rounded
-            .name
-              h4.text-center Arquimedes Cheffer  
-          .p-5.align-self-center.parallax(data-parallax="50,100")
-            .team.brunocosta.rounded
-            .name
-              h4.text-center Bruno Costa
-          .p-5.align-self-center.parallax(data-parallax="100,150")
-            .team.gustavopatino.rounded  
-            .name
-              h4.text-center Gustavo Patino  
-      .ft-page.s2p1
-        .d-flex.justify-content-center.bar
-          h1.title.p-2 Team
-        .team-container.d-flex.justify-content-center
-          .p-5.align-self-center.parallax(data-parallax="50,100")
-            .team.anasemeano.rounded
-            .name
-              h4.text-center Ana Semeano
-          .p-5.align-self-center.parallax(data-parallax="100,150")
-            .team.arquimedescheffer.rounded
-            .name
-              h4.text-center Arquimedes Cheffer  
-          .p-5.align-self-center.parallax(data-parallax="50,100")
-            .team.brunocosta.rounded
-            .name
-              h4.text-center Bruno Costa
-          .p-5.align-self-center.parallax(data-parallax="100,150")
-            .team.gustavopatino.rounded  
-            .name
-              h4.text-center Gustavo Patino  
+        .square.wide.d-none
+          include square/s2p1
+        .tall
+          include tall/s2p1
+      .ft-page.s2p2
+        .square.wide.d-none
+          include square/s2p2
+        .tall
+          include tall/s2p2

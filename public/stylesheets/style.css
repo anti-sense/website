@@ -4,88 +4,55 @@ body {
   color:#FFFFFF;
   margin:0px;
 }
-
-
-.square .menu{
-  height: 5%;
-  border-bottom: 3px solid #38f1f6;
-}
-.square .s1p1{
-  background: url('../images/face.jpg');
-  background-repeat:no-repeat;
-  color:white;
-  height: 95%;
-  min-width: 375px;
-  width: 100%;
-  background-size: cover;
-  background-position: left;
-  font-size:1rem;
-}
-.square .s1p1 .logo{
-  background: url('../images/logo.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom:15%;
-  left:5%;
-  min-width: 250px;
-  min-height: 100px;
-  width: 35%;
-  height:18%;
-}
-.subtitle{
-  position: absolute;
-  bottom: -80px;
-  font-size: 1.8rem;
-  color:white;
-}
-
-
-
-
-
 .s2p1{
   background-image: url('../images/bg-team.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.team-container{
-  height: 100%
+.s2p2{
+  background-image: url('../images/bg-team.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.team-container{
+  height: 90%;
+}
 .team{
-  height: 250px;
-  width: 180px;
-  /* background-color: blue; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.anasemeano{
-  background-image: url('../images/people/AnaSemeano.png');
-}
-.arquimedescheffer{
-  background-image: url('../images/people/ArquimedesCheffer.png');
-}
-.brunocosta{
-  background-image: url('../images/people/BrunoCosta.png');
-}
-.gustavopatino{
-  background-image: url('../images/people/GustavoPatino.png');
-}
-.bar{
-  background-color: #0f1b47;
-  border-bottom: 2px solid white;
 }
 .title{
   font-size: 5rem;
   color:#38f1f6;
 }
-.name{
- background-color: #0f1b47; 
- color:#38f1f6; 
+.bar{
+  background-color: #0f1b47;
+  border-bottom: 2px solid white;
 }
-a {
+
+
+
+.team-container .anasemeano{
+  background-image: url('../images/people/AnaSemeano.png');
+}
+.team-container .arquimedescheffer{
+  background-image: url('../images/people/ArquimedesCheffer.png');
+}
+.team-container .brunocosta{
+  background-image: url('../images/people/BrunoCosta.png');
+}
+.team-container .gustavopatino{
+  background-image: url('../images/people/GustavoPatino.png');
+}
+.team-container .name h4{
+  /* width: 68%; */
+  background-color: #0f1b47;
+  color:#38f1f6;
+  /* border-top: 20px solid #ffffff00; */
+}
+
+
+a{
   color: : #FFFFFF;
 }
