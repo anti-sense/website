@@ -1,4 +1,23 @@
 $(document).ready(function(){
+  $('button').click(function(){
+    let data={
+      subject:$('input[name|=subject]').val(),
+      //msg:$('input[name|=subject]').val(),
+      msg:$('textarea[name|=message]').val(),
+      name:$('input[name|=name]').val(),
+      email:$('input[name|=email]').val(),
+      phone:"1234567"
+    }
+    $.ajax({
+      url:"/contact/lead",
+      method:"POST",
+      data,
+      success(data,textStatus,jqXHR){
+        console.log(data)
+      },
+      fail(jqXHR,textStatus,error){}
+    })
+  })
   $(function detectType(){
     let height=window.innerHeight
     let width=window.innerWidth

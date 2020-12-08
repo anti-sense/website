@@ -1,13 +1,14 @@
 .d-flex.justify-content-center.bar
   h1.title.p-2 Contacts
-.team-container.d-flex-row
+.contact-container.d-flex-row
   .d-flex.justify-content-center
     .p-5.align-self-center
       select.form-control.form-control-lg
-        option Select one
+        option Contact type
         option Partnership information
         option Product information
       input.form-control.form-control-lg(type="text",name="subject",placeholder="subject")
       textarea.form-control.form-control-lg(cols="40",rows="10",name="Message",placeholder="Type your message here")
+      input.form-control.form-control-lg(type="text",name="name",placeholder="your name")
       input.form-control.form-control-lg(type="email",name="email",placeholder="your email")
       button.form-control.btn.btn-primary.btn-lg.btn-block() Send  
