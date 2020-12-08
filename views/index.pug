@@ -2,8 +2,8 @@ extends layout
 
 block content
   .flowtime
-    .ft-section
-      .ft-page
+    .ft-section(data-id="section-1")
+      .ft-page(data-id="page-1")
         .square.wide.d-none
           .menu
             include square/menu
@@ -13,13 +13,15 @@ block content
           .menu
             include tall/menu
           include tall/s1p1                       
-    .ft-section
-      .ft-page.s2p1
+      .ft-page.s1p2.common(data-id="page-2")
+        include square/s1p2
+    .ft-section(data-id="section-2")
+      .ft-page.s2p1(data-id="page-1")
         .square.wide.d-none
           include square/s2p1
         .tall
           include tall/s2p1
-      .ft-page.s2p2
+      .ft-page.s2p2(data-id="page-2")
         .square.wide.d-none
           include square/s2p2
         .tall

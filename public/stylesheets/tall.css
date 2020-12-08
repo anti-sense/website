@@ -76,3 +76,77 @@
 .s2p2 .tall .form-control{
   font-size: 4rem;
 }
+
+
+.tall .image-1{
+  background: url('../images/s1p2/1.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 6%;
+  top: 50%;
+}
+.tall .image-2{
+  background: url('../images/s1p2/2.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+.tall .image-3{
+  background: url('../images/s1p2/3.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+.tall .image-4{
+  background: url('../images/s1p2/4.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 16%;
+}
+
+.tall .image-5{
+  background: url('../images/s1p2/5.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 75%;
+  top: 24%;
+}
+
+.tall .image-6{
+  background: url('../images/s1p2/6.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 49%;
+}
+.tall .image-7{
+  background: url('../images/s1p2/7.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 75%;
+  top: 58%;
+}

@@ -36,9 +36,11 @@ $(document).ready(function(){
     if(type=="tall"){
       $(".tall").removeClass('d-none')
       $('.square,.wide').hide()
+      $('.common').addClass('tall')
     }else if(type=="square"){
       $(".square").removeClass('d-none')
       $('.tall').hide()
+      $('.common').addClass('square')
     }
   })()
 })

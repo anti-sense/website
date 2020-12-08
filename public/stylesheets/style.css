@@ -31,7 +31,10 @@ body {
   border-bottom: 2px solid white;
 }
 
-
+.s1p2 .title{
+  font-size:2rem;
+  color:black;
+}
 
 .team-container .anasemeano{
   background-image: url('../images/people/AnaSemeano.png');

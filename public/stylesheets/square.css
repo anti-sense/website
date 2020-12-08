@@ -56,3 +56,79 @@
 .square .team-container .name h4{
   border-radius: 2rem; 
 }
+
+.s1p2{
+  position: absolute;
+}
+.square .image-1{
+  background: url('../images/s1p2/1.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 6%;
+  top: 50%;
+}
+.square .image-2{
+  background: url('../images/s1p2/2.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 25%;
+  top: 52%;
+}
+.square .image-3{
+  background: url('../images/s1p2/3.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+.square .image-4{
+  background: url('../images/s1p2/4.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 16%;
+}
+
+.square .image-5{
+  background: url('../images/s1p2/5.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 75%;
+  top: 24%;
+}
+
+.square .image-6{
+  background: url('../images/s1p2/6.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 49%;
+}
+.square .image-7{
+  background: url('../images/s1p2/7.png');
+  background-repeat:no-repeat;
+  height: 236px;
+  width: 197px;
+  background-size: contain;
+  position: absolute;
+  left: 75%;
+  top: 58%;
+}
