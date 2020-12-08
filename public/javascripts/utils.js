@@ -1,19 +1,20 @@
 $(document).ready(function(){
-  $('button').click(function(){
-    let data={
-      subject:$('input[name|=subject]').val(),
-      //msg:$('input[name|=subject]').val(),
-      msg:$('textarea[name|=message]').val(),
-      name:$('input[name|=name]').val(),
-      email:$('input[name|=email]').val(),
-      phone:"1234567"
-    }
+  $('button.contact-information').click(function(){
+    let data={}
+    $(this).closest("form").find('input,textarea').each(function(){
+      let self=$(this)
+      data[self.attr('name')]=self.val()
+    })
     $.ajax({
       url:"/contact/lead",
       method:"POST",
       data,
       success(data,textStatus,jqXHR){
-        console.log(data)
+        if(data.error){
+          displayToast('Error',data.message,4000)
+        }else{
+          location.reload()  
+        }
       },
       fail(jqXHR,textStatus,error){}
     })

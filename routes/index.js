@@ -9,8 +9,12 @@ router.get('/', function(req, res, next) {
 
 router.post('/contact/lead', function(req, res, next) {
   let data=req.body
-  trustifi(data)
-  res.json("Message Sent")
+  trustifi(data).then(data=>{
+    res.json(data)    
+  }).catch(err=>{
+    res.json(err)
+  })
+  
 });
 
 
