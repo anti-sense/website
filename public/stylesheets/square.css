@@ -57,9 +57,10 @@
   border-radius: 2rem; 
 }
 
-.s1p2{
+/*.s1p2{
   position: absolute;
-}
+}*/
+
 .square .image-1{
   background: url('../images/s1p2/1.png');
   background-repeat:no-repeat;
@@ -87,7 +88,7 @@
   width: 197px;
   background-size: contain;
   position: absolute;
-  left: 50%;
+  left: 51%;
   top: 70%;
 }
 .square .image-4{

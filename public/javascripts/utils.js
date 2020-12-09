@@ -37,6 +37,10 @@ $(document).ready(function(){
       $(".tall").removeClass('d-none')
       $('.square,.wide').hide()
       $('.common').addClass('tall')
+      Flowtime.onNavigation(closeMenu)
+      function closeMenu(){
+        $('.navbar-collapse').collapse("hide")
+      }
     }else if(type=="square"){
       $(".square").removeClass('d-none')
       $('.tall').hide()

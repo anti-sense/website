@@ -1,5 +1,6 @@
-.d-flex.justify-content-center.bar
-  h1.title.p-2 Contacts
+nav.navbar.bar.justify-content-center
+  p.title.text-center.p-2 Contacts
+  include menu
 .contact-container.d-flex-row
   .d-flex.justify-content-center
     .p-5.align-self-center
@@ -15,4 +16,4 @@
         input.form-control.form-control-lg(type="email",name="email",placeholder="your email")
         //input.form-control.btn.btn-primary.btn-lg.btn-block(type="submit",value="send")
         button.contact-information.form-control.btn.btn-primary.btn-lg.btn-block(type="button",value="send") Send
-        button.g-recaptcha(data-sitekey='6LfudP4ZAAAAAEBRdv1MsiLECE0pOisHTVpVT8Ma' data-callback='onSubmit' data-action='submit') Submit
+        button.g-recaptcha(data-sitekey='6LfudP4ZAAAAAEBRdv1MsiLECE0pOisHTVpVT8Ma' data-callback='onSubmitTall' data-action='submit') Submit

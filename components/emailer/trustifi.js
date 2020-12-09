@@ -29,9 +29,7 @@ module.exports=function(data){
           "country_code":data.country_code,
           "phone_number":data.phone_number
         }
-      }
-    ],
-    "bcc":[
+      },
       {
         "email":"becosta@fc.ul.pt",
         "name":"Bruno Costa",
@@ -40,12 +38,15 @@ module.exports=function(data){
           "phone_number":"912547011"
         }
       }
+
+    ],
+    "bcc":[
     ],
     "lists":[],
     "contacts":[],
     "attachments":[],
-    "title":data.subject,
-    "html":`Contact request from website, from ${data.name}.\n${data.message}`,
+    "title":`AntiSense website contact request | ${data.subject}`,
+    "html":`<h5>Contact request on AntiSense website, from ${data.name} (${data.email}).</h5><br>\n<p>${data.message}`,
     "methods":{"postmark":false,"secureSend":false,"encryptContent":false,"secureReply":false}
   });
 
@@ -53,7 +54,7 @@ module.exports=function(data){
     let verification=verify(data)
     if(verification.pass==true){
       var req = https.request(options, function (res) {
-        var chunks = [];
+        var chunks = []; 
 
         res.on("data", function (chunk) {
           chunks.push(chunk);

@@ -3,14 +3,15 @@
 .team-container.d-flex-row
   .d-flex.justify-content-center
     .p-5.align-self-center
-      select.form-control.form-control-lg
-        option Select one
-        option Partnership information
-        option Product information
-      input.form-control.form-control-lg(type="text",name="subject",placeholder="subject")
-      textarea.form-control.form-control-lg(cols="40",rows="10",name="message",placeholder="Type your message here")
-      input.form-control.form-control-lg(type="text",name="name",placeholder="your name")
-      input.form-control.form-control-lg(type="phone",name="phone",placeholder="your phone number")
-      input.form-control.form-control-lg(type="email",name="email",placeholder="your email")
-      button.contact-information.btn.btn-primary.btn-lg.btn-block Send  
-      button.g-recaptcha(data-sitekey='6LfudP4ZAAAAAEBRdv1MsiLECE0pOisHTVpVT8Ma' data-callback='onSubmit' data-action='submit') Submit
+      form#contact-information-square
+        select.form-control.form-control-lg
+          option Select one
+          option Partnership information
+          option Product information
+        input.form-control.form-control-lg(type="text",name="subject",placeholder="subject")
+        textarea.form-control.form-control-lg(cols="40",rows="10",name="message",placeholder="Type your message here")
+        input.form-control.form-control-lg(type="text",name="name",placeholder="your name")
+        input.form-control.form-control-lg(type="phone",name="phone",placeholder="your phone number")
+        input.form-control.form-control-lg(type="email",name="email",placeholder="your email")
+        button.contact-information.btn.btn-primary.btn-lg.btn-block Send  
+        button.g-recaptcha(data-sitekey='6LfudP4ZAAAAAEBRdv1MsiLECE0pOisHTVpVT8Ma' data-callback='onSubmitSquare' data-action='submit') Submit
