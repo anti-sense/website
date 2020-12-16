@@ -41,7 +41,7 @@ $(document).ready(function(){
       function closeMenu(){
         $('.navbar-collapse').collapse("hide")
       }
-    }else if(type=="square"){
+    }else if(type=="square" || type=="wide"){
       $(".square").removeClass('d-none')
       $('.tall').hide()
       $('.common').addClass('square')

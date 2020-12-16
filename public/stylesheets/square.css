@@ -2,8 +2,9 @@
   height:100%;
 }
 .square .menu{
-  height: 5%;
+  height: 59px;
   border-bottom: 3px solid #38f1f6;
+  width:100%;
 }
 .square .s1p1{
   background: url('../images/face.jpg');
@@ -27,6 +28,10 @@
   min-height: 100px;
   width: 35%;
   height:18%;
+}
+.square .bar{
+  width:100%;
+  /* height: 100%; */
 }
 .square .subtitle{
   position: absolute;
@@ -56,11 +61,20 @@
 .square .team-container .name h4{
   border-radius: 2rem; 
 }
-
+.s1p2 .square .d-flex{
+  height: 90%
+}
+.s1p2 .square .d-flex img{
+  max-height: max-content;
+  height: max-content;
+  width: max-content;
+}
 /*.s1p2{
   position: absolute;
 }*/
 
+
+/*
 .square .image-1{
   background: url('../images/s1p2/1.png');
   background-repeat:no-repeat;
@@ -133,3 +147,4 @@
   left: 75%;
   top: 58%;
 }
+*/

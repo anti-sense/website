@@ -11,8 +11,16 @@ block content
             include square/s1p1
         .tall.s1p1
           include tall/s1p1                       
-      .ft-page.s1p2.common(data-id="page-2")
-        include square/s1p2
+      .ft-page.s1p2.common(data-id="Services")  
+        .square.wide.d-none
+          .menu
+            include square/menu
+          include square/s1p2
+        .tall
+          .menu
+            nav.navbar.navbar-light.light-blue.lighten-4  
+              include tall/menu
+          include square/s1p2
     .ft-section(data-id="section-2")
       .ft-page.s2p1(data-id="team")
         .square.wide.d-none

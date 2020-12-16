@@ -50,7 +50,7 @@
   left:5%;
   min-width: 250px;
   width: 90%;
-  height:18%;
+  height:25%;
 }
 .tall .subtitle{
   position: absolute;
@@ -102,6 +102,18 @@
 }
 
 
+/*S1P2*/
+.s1p2 .tall .d-flex{
+  height: 90%;
+}
+.s1p2 .tall .d-flex img{
+  width:100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+
+/* OLD 
 .tall .image-1{
   background: url('../images/s1p2/1.png');
   background-repeat:no-repeat;
@@ -174,3 +186,4 @@
   left: 75%;
   top: 58%;
 }
+*/
