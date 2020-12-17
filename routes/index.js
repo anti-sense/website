@@ -7,6 +7,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'AntiSense - Next-Generation of smelling' });
 });
 
+router.get('/privacypolicy', function(req, res, next) {
+  res.render('privacypolicy', { title: 'AntiSense - Privacy Policy' });
+});
+
+
 router.post('/contact/lead', function(req, res, next) {
   let data=req.body
   trustifi(data).then(data=>{
