@@ -11,3 +11,5 @@ https://impress.js.org/#/step-3
 https://scrollmagic.io
 
 
+## Startup  
+Run build

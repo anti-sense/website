@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+cd /home/brunocosta/.git/website
+git pull origin master
+docker build -t antisense/website .
+cat container.info xargs -n -i Container docker stop Container
+docker run -p 3000:3000 -d antisense/website > container.info
